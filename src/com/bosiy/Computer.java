@@ -13,6 +13,6 @@ public class Computer {
 
     @Override
     public String toString() {
-        return  " " + this.model + "; " + this.processor + "; " + this.ram + "; ";
+        return this.model + "; " + this.processor + "; " + this.ram + "; ";
     }
 }
